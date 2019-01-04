@@ -68,7 +68,7 @@ public class EasyWebActivity extends BaseAgentWebActivity {
 
 	@Override
 	protected int getIndicatorColor() {
-		return Color.parseColor("#ff0000");
+		return Color.parseColor("#299ee3");
 	}
 
 	@Override
