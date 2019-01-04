@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.just.agentweb.AgentWeb;
-import com.just.agentweb.AgentWebSettingsImpl;
-import com.just.agentweb.DefaultWebClient;
+import com.just.agentweb.core.AgentWeb;
+import com.just.agentweb.core.web.AgentWebSettingsImpl;
+import com.just.agentweb.core.client.DefaultWebClient;
 import com.just.agentweb.sample.widget.CoolIndicatorLayout;
 
 /**

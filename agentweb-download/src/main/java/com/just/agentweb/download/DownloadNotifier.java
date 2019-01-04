@@ -28,15 +28,15 @@ import android.os.SystemClock;
 import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 
-import com.just.agentweb.AgentWebUtils;
-import com.just.agentweb.LogUtils;
+import com.just.agentweb.utils.AgentWebUtils;
+import com.just.agentweb.utils.LogUtils;
 
 import java.io.File;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 import static android.content.Context.NOTIFICATION_SERVICE;
-import static com.just.agentweb.AgentWebConfig.AGENTWEB_VERSION;
+import static com.just.agentweb.core.web.AgentWebConfig.AGENTWEB_VERSION;
 
 /**
  * @author cenxiaozhong

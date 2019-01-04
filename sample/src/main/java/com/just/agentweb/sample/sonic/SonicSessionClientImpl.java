@@ -16,7 +16,7 @@ package com.just.agentweb.sample.sonic;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-import com.just.agentweb.AgentWeb;
+import com.just.agentweb.core.AgentWeb;
 import com.tencent.sonic.sdk.SonicSessionClient;
 
 import java.util.HashMap;

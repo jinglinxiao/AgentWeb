@@ -15,15 +15,15 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.just.agentweb.AgentWeb;
-import com.just.agentweb.AgentWebSettingsImpl;
-import com.just.agentweb.AgentWebUIControllerImplBase;
-import com.just.agentweb.DefaultWebClient;
-import com.just.agentweb.IAgentWebSettings;
-import com.just.agentweb.IWebLayout;
-import com.just.agentweb.MiddlewareWebChromeBase;
-import com.just.agentweb.MiddlewareWebClientBase;
-import com.just.agentweb.PermissionInterceptor;
+import com.just.agentweb.core.AgentWeb;
+import com.just.agentweb.core.web.AgentWebSettingsImpl;
+import com.just.agentweb.core.web.AgentWebUIControllerImplBase;
+import com.just.agentweb.core.client.DefaultWebClient;
+import com.just.agentweb.core.web.IAgentWebSettings;
+import com.just.agentweb.widget.IWebLayout;
+import com.just.agentweb.core.client.MiddlewareWebChromeBase;
+import com.just.agentweb.core.client.MiddlewareWebClientBase;
+import com.just.agentweb.action.PermissionInterceptor;
 
 /**
  * Created by cenxiaozhong on 2017/7/22.

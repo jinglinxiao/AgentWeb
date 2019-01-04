@@ -12,7 +12,7 @@ import com.github.lzyzsd.jsbridge.BridgeWebView;
 import com.github.lzyzsd.jsbridge.BridgeWebViewClient;
 import com.github.lzyzsd.jsbridge.CallBackFunction;
 import com.google.gson.Gson;
-import com.just.agentweb.AgentWeb;
+import com.just.agentweb.core.AgentWeb;
 
 /**
  * Created by cenxiaozhong on 2017/7/1.

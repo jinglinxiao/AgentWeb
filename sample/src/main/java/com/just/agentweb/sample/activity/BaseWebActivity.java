@@ -19,8 +19,8 @@ import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.just.agentweb.AgentWeb;
-import com.just.agentweb.DefaultWebClient;
+import com.just.agentweb.core.AgentWeb;
+import com.just.agentweb.core.client.DefaultWebClient;
 import com.just.agentweb.sample.R;
 import com.just.agentweb.sample.widget.WebLayout;
 

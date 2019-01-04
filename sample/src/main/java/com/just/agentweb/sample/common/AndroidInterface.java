@@ -7,7 +7,7 @@ import android.util.Log;
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
 
-import com.just.agentweb.AgentWeb;
+import com.just.agentweb.core.AgentWeb;
 
 /**
  * Created by cenxiaozhong on 2017/5/14.

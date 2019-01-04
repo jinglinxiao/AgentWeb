@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.just.agentweb.AgentWeb;
+import com.just.agentweb.core.AgentWeb;
 import com.just.agentweb.sample.R;
 
 import us.feras.mdv.MarkdownView;
