@@ -11,34 +11,33 @@ AgentWeb 是一个基于的 Android WebView ，极度容易使用以及功能强
 详细使用请参照上面的 Sample 。
 	
 
-## 引入
+## Gradle引入
 
+1.先在项目根目录的 build.gradle 的 repositories 添加:
+```
+allprojects {
+     repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+}
+```
 
-* Gradle 
-   
-   ```
-    compile 'com.just.agentweb:agentweb:4.0.2' // (必选)
-    compile 'com.just.agentweb:download:4.0.2' // (可选)
-    compile 'com.just.agentweb:filechooser:4.0.2'// (可选) 
-   ```
-   
-* Maven
-	
-	```
-	<dependency>
- 	  <groupId>com.just.agentweb</groupId>
- 	  <artifactId>agentweb</artifactId>
-	  <version>4.0.2</version>
-	  <type>pom</type>
-	</dependency>
-	
-	```
+2.然后在dependencies添加:
+
+```
+dependencies {
+  ...
+  implementation 'com.github.xuexiangjys.AgentWeb:agentweb-core:1.0.0'(必选)
+  implementation 'com.github.xuexiangjys.AgentWeb:agentweb-download:1.0.0'(可选)
+  implementation 'com.github.xuexiangjys.AgentWeb:agentweb-filechooser:1.0.0'(可选)
+}
+```
 
 ## 相关
 * [AgentWebX5](https://github.com/Justson/AgentWebX5)
 * [一个炫酷的 WebView 进度条](https://github.com/Justson/CoolIndicator)
 
-	
 
 ## 使用
 #### 基础用法

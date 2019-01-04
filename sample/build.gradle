@@ -43,9 +43,13 @@ dependencies {
     implementation deps.support.app_compat
     implementation deps.support.design
     testImplementation 'junit:junit:4.12'
-    implementation project(':agentweb-core')
-    implementation project(':agentweb-download')
-    implementation project(':agentweb-filechooser')
+//    implementation project(':agentweb-core')
+//    implementation project(':agentweb-download')
+//    implementation project(':agentweb-filechooser')
+
+    implementation 'com.github.xuexiangjys.AgentWeb:agentweb-download:1.0.0'
+    implementation 'com.github.xuexiangjys.AgentWeb:agentweb-core:1.0.0'
+    implementation 'com.github.xuexiangjys.AgentWeb:agentweb-filechooser:1.0.0'
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.1'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
